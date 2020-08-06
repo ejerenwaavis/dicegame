@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Dice</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-center">
+
+  <div class="row">
+    <h1 id="winner" class="col col-lg-12 big-head">Refresh Me</h1>
+  </div>
+  <div class="container">
+
+    <div class="row">
+      <div class="col col-lg-2 "></div>
+
+      <!-- Start Dice of Container -->
+
+      <div class="col col-lg-8 dice-container">
+        <div class="row">
+          <div class="col col-lg-6">
+            <h5>Player 1</h5>
+          </div>
+          <div class=" col col-lg-6">
+            <h5>Player 2</h5>
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col col-lg-6 box-container">
+            <div class="col col-lg-12 box">
+              <div class="dice">
+
+                <!-- Row 1 Start -->
+                <div class="row ">
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a1"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a2"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a3"></div>
+                  </div>
+                </div <!-- Row 1 End -->
+
+                <!-- Row 2 Start -->
+                <div class="row">
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a4"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a5"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a6"></div>
+                  </div>
+                </div <!-- Row 2 End -->
+
+                <!-- Row 3 Start -->
+                <div class="row">
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a7"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a8"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots a9"></div>
+                  </div>
+                </div <!-- Row 3 End -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-lg-6 box-container">
+            <div class="col col-lg-12 box">
+              <div class="dice">
+
+                <!-- Row 1 Start -->
+                <div class="row ">
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b1"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b2"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b3"></div>
+                  </div>
+                </div <!-- Row 1 End -->
+
+                <!-- Row 2 Start -->
+                <div class="row">
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b4"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b5"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b6"></div>
+                  </div>
+                </div <!-- Row 2 End -->
+
+                <!-- Row 3 Start -->
+                <div class="row">
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b7"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b8"></div>
+                  </div>
+                  <div class="col col-lg-4 dots-container">
+                    <div class="row dice-dots b9"></div>
+                  </div>
+                </div <!-- Row 3 End -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- End Dice of Container -->
+
+
+    </div>
+    <div class="col col-lg-2"></div>
+  </div>
+
+  <div class="row">
+    <div class="col col-lg-12">
+      <span onclick="rollDice()" type="button" name="button" class="btn btn-xl btn-danger">Refresh</span>
+    </div>
+  </div>
+
+  <div class="footer fixed-bottom center">
+    © Avis Ejerenwa 2020 || Anjela's Dice Challenge on Udemy
+  </div>
+
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

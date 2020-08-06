@@ -1,0 +1,76 @@
+body {
+  padding: 10%;
+  background-color: #e3e3e3;
+}
+
+div {
+  display: inline-block;
+}
+
+
+
+.big-head {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.box-container {
+  padding: 5% 0%;
+}
+
+.btn {
+  /* padding: 1% 0; */
+}
+
+.btn-container {
+  padding: 2% 5%;
+}
+
+.dice {
+  background-color: white;
+  border: solid thin #555;
+  border-radius: 15px;
+  height: 150px;
+  padding: 3% 8%;
+  width: 150px;
+}
+
+.dice-dots{
+  background-color: black;
+  border: solid thin #555;
+  border-radius: 10rem;
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.dice-container {
+  border: solid #333;
+  border-radius: 15px;
+  padding: 2% 10%;
+}
+
+.dots-container {
+  padding: 1.5% 0 1.5% 13%;
+}
+
+.footer{
+  padding: 2%;
+}
+
+.middle {
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+.no-pad{
+  padding: 0%;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+/*
+.a2,.a8, .b2, .b8{
+  opacity: 0;
+} */
